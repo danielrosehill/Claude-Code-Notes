@@ -1,3 +1,5 @@
+[![Part of the Claude Code Repos Index](https://img.shields.io/badge/Claude%20Code%20Repos-Index-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Repos-Index)
+
 # Claude Code - My Cliff Notes
 
 *(Author: just me!)*
@@ -25,3 +27,7 @@ From a jaundiced perspective, this might seem silly. But in a way, it's virtuous
 | Note | Date | Summary |
 |------|------|---------|
 | [CLAUDE.md - Strategic Separation](notes/claude.md) | 25/03/2026 | Why a monolithic CLAUDE.md is a bad idea — the split pattern for user-level context and the turnstile pattern for repos |
+
+---
+
+For more Claude Code projects, visit my [Claude Code Repos Index](https://github.com/danielrosehill/Claude-Code-Repos-Index).
