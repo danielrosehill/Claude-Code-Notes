@@ -1,0 +1,3 @@
+The purpose of this repository is to gather together some notes about how to make the most effective use of Claude Code.
+
+I created this repository to share small discoveries and workarounds that I encounter while using this tool effectively. It is essential to note the date on which each note was created and to include any disclaimers when these methods might not be to everyone's preference. This is a personal notebook that I am sharing as an open-source resource; it is not intended as a prescriptive guide. 
