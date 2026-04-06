@@ -2,7 +2,7 @@
 
 # Claude Code - My Cliff Notes
 
-*(Author: just me!)*
+**Authorship:** Ideas & notes — Daniel. Refinement & writing — Claude Opus 4.6.
 
 Claude Code is a hugely powerful CLI that has made made agentic AI accessible to many.
 
@@ -42,6 +42,7 @@ From a jaundiced perspective, this might seem silly. But in a way, it's virtuous
 |------|------|---------|
 | [The Agent Picker Pattern](notes/agent-picker-pattern.md) | 25/03/2026 | Solving the "too many subagents" problem with an orchestration agent that selects the right crew |
 | [The Claude Agent Workspace Model](notes/agent-workspace-model.md) | 25/03/2026 | Using repos as structured workspaces for non-software work — the most important pattern, with 8 real implementations |
+| [Planning Folder With UUID-Tagged Plans](notes/planning-folder-uuid.md) | 06/04/2026 | A planning/ folder with plans, handovers and logs — every plan gets a UUID as ground-truth reference for resume commands |
 
 ### Repo & Codebase Tools
 
@@ -57,6 +58,7 @@ From a jaundiced perspective, this might seem silly. But in a way, it's virtuous
 |------|------|---------|
 | [Declaude](notes/declaude.md) | 25/03/2026 | Build personal writing rules and enforce them on AI-generated content via a slash command |
 | [No Wheel Inventions](notes/no-wheel-inventions.md) | 25/03/2026 | Slash commands to stop Claude reinventing the wheel when good packages exist |
+| [Claude Handover Plugin](notes/claude-handover-plugin.md) | 06/04/2026 | Plugin formalising session handover — writes HANDOVER.md and spawns a new Konsole with Claude pre-loaded to resume |
 
 ### MCP & Integration
 
