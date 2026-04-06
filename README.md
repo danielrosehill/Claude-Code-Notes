@@ -59,6 +59,54 @@ From a jaundiced perspective, this might seem silly. But in a way, it's virtuous
 | [Declaude](notes/declaude.md) | 25/03/2026 | Build personal writing rules and enforce them on AI-generated content via a slash command |
 | [No Wheel Inventions](notes/no-wheel-inventions.md) | 25/03/2026 | Slash commands to stop Claude reinventing the wheel when good packages exist |
 | [Claude Handover Plugin](notes/claude-handover-plugin.md) | 06/04/2026 | Plugin formalising session handover — writes HANDOVER.md and spawns a new Konsole with Claude pre-loaded to resume |
+| [Claude Slash Commands](notes/claude-slash-commands.md) | 06/04/2026 | Index repo for 350+ custom slash commands across dev, docs, security, and sysadmin categories |
+| [Claude Document This](notes/document-this.md) | 06/04/2026 | Plugin for capturing sysadmin fixes and routing the writeup to Notion, Obsidian, or email |
+| [Claude Janitor](notes/claude-janitor.md) | 06/04/2026 | Plugin for tidying up repos from Claude-related artefacts and stray scaffolding |
+
+### Hooks
+
+| Note | Date | Summary |
+|------|------|---------|
+| [New Turn Claude Hook](notes/new-turn-hook.md) | 06/04/2026 | Concept hook for auto-deciding when to start a fresh conversation vs continue the current one |
+
+### Desktop Utilities
+
+| Note | Date | Summary |
+|------|------|---------|
+| [Claude Konsole Launcher](notes/konsole-launcher.md) | 06/04/2026 | WIP launcher for spinning up Claude Code inside Konsole on KDE Plasma |
+| [Claude Linux Desktop Manager](notes/linux-desktop-manager.md) | 06/04/2026 | GUI wrapper exposing sysadmin tasks as buttons backed by Claude Code slash commands |
+
+### Templates & Scaffolds
+
+| Note | Date | Summary |
+|------|------|---------|
+| [Claude Deep Research Template](notes/deep-research-template.md) | 06/04/2026 | Workspace template for phased research projects — context, plan, execute, synthesise |
+| [Claude Spec Starter](notes/spec-starter.md) | 06/04/2026 | Template that turns free-form project descriptions into structured specs and context files |
+| [Claude Workspace Setup Helper](notes/workspace-setup-helper.md) | 06/04/2026 | Interactive picker for cloning pre-built Claude Workspace templates by use case |
+
+### Repository Sculpting
+
+| Note | Date | Summary |
+|------|------|---------|
+| [Claude Repo Creator](notes/repo-creator.md) | 06/04/2026 | Workspace for generating GitHub repos from natural language — local, remote, and scaffolding in one shot |
+
+### Harnessing & Guidance
+
+| Note | Date | Summary |
+|------|------|---------|
+| [Claude MD Chunk](notes/md-chunk.md) | 06/04/2026 | CLI tool that prunes bloated CLAUDE.md and offloads detail into an agent-context/ folder |
+
+### Workarounds
+
+| Note | Date | Summary |
+|------|------|---------|
+| [Claude Model Identifier](notes/model-identifier.md) | 06/04/2026 | Prompt snippet for verifying which model is actually serving the session |
+
+### Bash & Shell
+
+| Note | Date | Summary |
+|------|------|---------|
+| [Claude Code Bash Aliases](notes/bash-aliases.md) | 06/04/2026 | Curated bash aliases for Claude Code workflows on Linux, version-controlled with YADM |
 
 ### MCP & Integration
 
@@ -78,6 +126,17 @@ From a jaundiced perspective, this might seem silly. But in a way, it's virtuous
 | Note | Date | Summary |
 |------|------|---------|
 | [Claude Code Notebook](notes/claude-code-notebook.md) | 25/03/2026 | Personal reference notebook for Claude Code CLI — config files, CWD behaviour, MCP setup on Linux |
+
+### Reference Notebook
+
+Longer-form reference material (folded in from the former `Claude-Code-Notebook` repo):
+
+- [Notebook Index](notebook/index.md)
+- [Config Files](notebook/config-files/) — including the [Linux TL;DR](notebook/config-files/linuxtldr.md)
+- [Current Working Directory (CWD)](notebook/cwd/cwd.md)
+- [MCP](notebook/mcp/index.md) — [add from JSON](notebook/mcp/add-from-json.md), [list MCP names](notebook/mcp/get-mcp-names.md), [Anthropic MCP glosses](notebook/mcp/mpc-glosses.md), [STT MCP](notebook/mcp/stt.md)
+- Individual MCP configs: [Cloudinary](notebook/mcp/individual-configs/cloudinary-mcp.md) · [Context7](notebook/mcp/individual-configs/context7.md) · [Firecrawl](notebook/mcp/individual-configs/firecraw.md) · [GitHub Gists](notebook/mcp/individual-configs/github-gists.md) · [Hugging Face](notebook/mcp/individual-configs/hugging-face.md) · [Notion](notebook/mcp/individual-configs/notion.md) · [Resend](notebook/mcp/individual-configs/resend.md) · [Time Awareness](notebook/mcp/individual-configs/time-awarendess.md) · [Todoist](notebook/mcp/individual-configs/todoist.md) · [Vercel](notebook/mcp/individual-configs/vercel.md)
+- [Useful Links](notebook/links.md) · [Other Notebooks](notebook/ref/other-notebooks.md) · [Resources](notebook/ref/resources.md)
 
 ---
 
