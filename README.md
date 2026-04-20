@@ -62,6 +62,7 @@ From a jaundiced perspective, this might seem silly. But in a way, it's virtuous
 | [Claude Slash Commands](notes/claude-slash-commands.md) | 06/04/2026 | Index repo for 350+ custom slash commands across dev, docs, security, and sysadmin categories |
 | [Claude Document This](notes/document-this.md) | 06/04/2026 | Plugin for capturing sysadmin fixes and routing the writeup to Notion, Obsidian, or email |
 | [Claude Janitor](notes/claude-janitor.md) | 06/04/2026 | Plugin for tidying up repos from Claude-related artefacts and stray scaffolding |
+| [Plugin User-Data Storage](notes/plugin-user-data-storage.md) | 21/04/2026 | Where plugins should persist per-user state — why `~/.claude/` is wrong, why XDG Base Directory is right, and how to set it up |
 
 ### Hooks
 
