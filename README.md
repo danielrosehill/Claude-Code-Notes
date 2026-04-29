@@ -43,6 +43,7 @@ From a jaundiced perspective, this might seem silly. But in a way, it's virtuous
 | [The Agent Picker Pattern](notes/agent-picker-pattern.md) | 25/03/2026 | Solving the "too many subagents" problem with an orchestration agent that selects the right crew |
 | [The Claude Agent Workspace Model](notes/agent-workspace-model.md) | 25/03/2026 | Using repos as structured workspaces for non-software work — the most important pattern, with 8 real implementations |
 | [Planning Folder With UUID-Tagged Plans](notes/planning-folder-uuid.md) | 06/04/2026 | A planning/ folder with plans, handovers and logs — every plan gets a UUID as ground-truth reference for resume commands |
+| [Private Plugin Architecture: Workspace, Plugin, MCP Variations](notes/private-plugin-architecture-variations.md) | 29/04/2026 | Five variations for private plugins (plugin-only, +workspace, +bundled MCP, +separate MCP via MCP Jungle, +workspace +MCP), decision tree, .mcp.json invocation tradeoffs |
 
 ### Repo & Codebase Tools
 
