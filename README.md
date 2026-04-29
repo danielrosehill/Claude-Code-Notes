@@ -103,6 +103,7 @@ From a jaundiced perspective, this might seem silly. But in a way, it's virtuous
 | Note | Date | Summary |
 |------|------|---------|
 | [Claude Model Identifier](notes/model-identifier.md) | 06/04/2026 | Prompt snippet for verifying which model is actually serving the session |
+| [The cwd Constraint and Workspace Roots](notes/cwd-constraint-and-workspace-roots.md) | 29/04/2026 | The cwd lock is harness-level but configurable — `--add-dir`, `additionalDirectories`, or launch from `/` for sysadmin work |
 
 ### Bash & Shell
 
