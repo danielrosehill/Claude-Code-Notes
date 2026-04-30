@@ -64,6 +64,9 @@ From a jaundiced perspective, this might seem silly. But in a way, it's virtuous
 | [Claude Document This](notes/document-this.md) | 06/04/2026 | Plugin for capturing sysadmin fixes and routing the writeup to Notion, Obsidian, or email |
 | [Claude Janitor](notes/claude-janitor.md) | 06/04/2026 | Plugin for tidying up repos from Claude-related artefacts and stray scaffolding |
 | [Plugin User-Data Storage](notes/plugin-user-data-storage.md) | 21/04/2026 | Where plugins should persist per-user state — why `~/.claude/` is wrong, why XDG Base Directory is right, and how to set it up |
+| [Intentional Project-Level Plugin Installation](notes/project-scope-plugin-install.md) | 27/04/2026 | When and why to install a plugin at project scope rather than user-level |
+| [Shipping A Claude Code Plugin With A Repo](notes/shipping-plugins-with-a-repo.md) | 27/04/2026 | Bundling a plugin alongside the repo it serves so collaborators get it via project-scope install |
+| [Plugins With Decoupled Templates](notes/plugin-with-decoupled-templates.md) | 28/04/2026 | Keeping plugin logic and the template repos it operates on as separate, loosely-coupled units |
 
 ### Hooks
 
@@ -104,6 +107,7 @@ From a jaundiced perspective, this might seem silly. But in a way, it's virtuous
 |------|------|---------|
 | [Claude Model Identifier](notes/model-identifier.md) | 06/04/2026 | Prompt snippet for verifying which model is actually serving the session |
 | [The cwd Constraint and Workspace Roots](notes/cwd-constraint-and-workspace-roots.md) | 29/04/2026 | The cwd lock is harness-level but configurable — `--add-dir`, `additionalDirectories`, or launch from `/` for sysadmin work |
+| [Bypass Permissions As The Default Mode](notes/bypass-permissions-default-mode.md) | 30/04/2026 | Set `permissions.defaultMode: "bypassPermissions"` in `~/.claude/settings.json` to make every session start in skip-permissions mode |
 
 ### Bash & Shell
 
