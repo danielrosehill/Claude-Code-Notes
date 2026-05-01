@@ -67,6 +67,7 @@ From a jaundiced perspective, this might seem silly. But in a way, it's virtuous
 | [Intentional Project-Level Plugin Installation](notes/project-scope-plugin-install.md) | 27/04/2026 | When and why to install a plugin at project scope rather than user-level |
 | [Shipping A Claude Code Plugin With A Repo](notes/shipping-plugins-with-a-repo.md) | 27/04/2026 | Bundling a plugin alongside the repo it serves so collaborators get it via project-scope install |
 | [Plugins With Decoupled Templates](notes/plugin-with-decoupled-templates.md) | 28/04/2026 | Keeping plugin logic and the template repos it operates on as separate, loosely-coupled units |
+| [Private Claude Code Marketplaces](notes/private-marketplaces.md) | 01/05/2026 | Run parallel public + private marketplaces — neither marketplace nor plugin repos need to be public, fully private chains work |
 
 ### Hooks
 
